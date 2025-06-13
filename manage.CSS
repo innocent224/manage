@@ -50,3 +50,119 @@ nav {
     border-radius: 20px;
     border: 0px;
 }
+
+#section-1 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    margin: 40px 70px 100px;
+}
+
+.section-1-text {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.section-1-text h1 {
+    font-size: 50px;
+    color: var(--dark-blue);
+    font-weight: var(--Weight3);
+    width: 100%;
+}
+
+.section-1-text p {
+    font-size: var(---font-size);
+    color: var(--Dark-Grayfish-Blue);
+    width: 100%;
+}
+
+.section-1-img {
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.section-1-img img {
+    width: 500px;
+}
+
+#section-2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 40px 70px 100px;
+    padding: 15px;
+}
+
+.first-part, 
+.second-part {
+    width: 100%;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 20px;
+}
+
+.first-part h1 {
+    color: var(--dark-blue);
+    font-size: 40px;
+    font-weight: var(--Weight3);
+}
+
+.first-part p {
+    font-size: var(---font-size);
+    color: var(--Dark-Grayfish-Blue);
+}
+
+.second-part {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.no-1, .no-2, .no-3 {
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   gap: 20px;
+}
+
+.no-1 div, .no-2 div, .no-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.color {
+    background-color: var(--bright-red);
+    border-radius: 15px;
+    padding: 4px 20px;
+    color: #FFF;
+    font-size: var(---font-size);
+}
+
+.no-1 div h3,
+.no-2 div h3,
+.no-3 div h3{
+    color: var(--dark-blue);
+    font-size: 18px;
+}
+
+.no-1 div p,
+.no-2 div p,
+.no-3 div p{
+    color: var(--Dark-Grayfish-Blue);
+    font-size: 12px;
+}
