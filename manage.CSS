@@ -26,7 +26,7 @@
 }
 
 nav {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,8 +35,8 @@ nav {
     margin: 40px 70px 100px;
 }
 
-.Listing {
-    border: 3px solid blue;
+.List{
+    /* border: 3px solid blue; */
     display: flex;
     flex-direction: row;
     align-items: center;
